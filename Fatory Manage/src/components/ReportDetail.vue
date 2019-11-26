@@ -22,7 +22,7 @@
 
         </div>
 
-        <v-data-table :headers="headers" :items="data" :items-per-page="10" loading="true" disable-sort>
+        <v-data-table height="70vh" :headers="headers" :items="data" :items-per-page="10" loading="true" disable-sort>
             <!-- <template v-slot:header.time="{ header }">
           <v-chip dark>{{ header.text }}</v-chip>
         </template> -->
